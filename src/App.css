@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  height: 8vh;
+  background-color: #418484;
+  justify-content: center;
+  display: flex;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #d7b8b8;
+  width: 20%;
+  height: 100%;
+  margin: 0 10%;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #ed4e4e;
+}
+.footer{
+  position: fixed;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  background-color: beige;
+  left:0;
+  bottom: 0;
+}
+.foot-left, .foot-right {
+  height: 100%;
+}
+.foot-left{
+  width: 60%;
+  background-color: aqua;
+}
+.foot-right{
+  width: 40%;
+  background-color: #ed4e4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  /* background-color: #d7b8b8; */
+  width: 30%;
+  height: 50%;
+  margin: 10px auto 0px;
+  overflow: hidden;
+
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.allicon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  height: 30%;
+}
+.icon{
+  width: 32px;
+  height: 32px;
+  margin:12px;
+}
